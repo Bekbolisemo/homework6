@@ -1,44 +1,23 @@
 package com.company;
 
-public class gameEntity {
+public class gameEntity  {
 
-    private int xpBoos;
-    private int hitBoos;
+    private int xp;
+    private int dam;
 
-
-
-    private int xpHero;
-    private int hitHero;
-
-    public int getXpBoos() {
-        return xpBoos;
+    public int getXp() {
+        return xp;
     }
 
-    public void setXpBoos(int xpBoos) {
-        this.xpBoos = xpBoos;
+    public void setXp(int xp) {
+        this.xp = xp;
     }
 
-    public int getHitBoos() {
-        return hitBoos;
+    public int getDam() {
+        return dam;
     }
 
-    public void setHitBoos(int hitBoos) {
-        this.hitBoos = hitBoos;
-    }
-
-    public int getXpHero() {
-        return xpHero;
-    }
-
-    public void setXpHero(int xpHero) {
-        this.xpHero = xpHero;
-    }
-
-    public int getHitHero() {
-        return hitHero;
-    }
-
-    public void setHitHero(int hitHero) {
-        this.hitHero = hitHero;
+    public void setDam(int dam) {
+        this.dam = dam;
     }
 }
